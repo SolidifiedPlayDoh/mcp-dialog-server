@@ -22,7 +22,7 @@ This tool helps AI assistants communicate with you through **adorable native mac
 ### Option 1: Automatic Setup (Recommended) 🎉
 
 ```bash
-git clone https://github.com/Solidifiedplaydoh/mcp-dialog-server.git
+git clone https://github.com/SolidifiedPlayDoh/mcp-dialog-server.git
 cd mcp-dialog-server
 npm install && npm run build
 ./install.sh
@@ -37,7 +37,7 @@ npm install && npm run build
 #### 1. Clone and build
 
 ```bash
-git clone https://github.com/Solidifiedplaydoh/mcp-dialog-server.git
+git clone https://github.com/SolidifiedPlayDoh/mcp-dialog-server.git
 cd mcp-dialog-server
 npm install
 npm run build
