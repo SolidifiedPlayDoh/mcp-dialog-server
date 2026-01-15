@@ -17,21 +17,34 @@ This tool helps AI assistants communicate with you through **adorable native mac
 
 ---
 
-## 📥 Download
+## 🚀 Super Quick Install (Easiest!)
 
-**Latest Release:** [v1.0.0](https://github.com/SolidifiedPlayDoh/mcp-dialog-server/releases/latest)
+**Just one command!** Copy and paste this into your terminal:
 
-Download pre-built packages:
-- [📦 .tar.gz](https://github.com/SolidifiedPlayDoh/mcp-dialog-server/releases/download/v1.0.0/mcp-dialog-server-1.0.0.tar.gz)
-- [📦 .zip](https://github.com/SolidifiedPlayDoh/mcp-dialog-server/releases/download/v1.0.0/mcp-dialog-server-1.0.0.zip)
+```bash
+curl -fsSL https://raw.githubusercontent.com/SolidifiedPlayDoh/mcp-dialog-server/main/quick-install.sh | bash
+```
 
-Or clone from source below! :3
+That's it! The script downloads, extracts, and configures everything automatically. Then just restart Cursor! :3
 
 ---
 
-## 🚀 Quick Install
+## 📥 Other Install Options
 
-### Option 1: Automatic Setup (Recommended) 🎉
+### Option 1: Download Pre-Built Release (No building needed!)
+
+**Latest Release:** [v1.0.0](https://github.com/SolidifiedPlayDoh/mcp-dialog-server/releases/latest)
+
+1. Download: [📦 .tar.gz](https://github.com/SolidifiedPlayDoh/mcp-dialog-server/releases/download/v1.0.0/mcp-dialog-server-1.0.0.tar.gz) or [📦 .zip](https://github.com/SolidifiedPlayDoh/mcp-dialog-server/releases/download/v1.0.0/mcp-dialog-server-1.0.0.zip)
+2. Extract: `tar -xzf mcp-dialog-server-1.0.0.tar.gz` (or unzip the .zip)
+3. Install: `cd release && ./install.sh`
+4. Restart Cursor!
+
+> 💡 Pre-built releases include everything - no `npm install` or `npm run build` needed! ✨
+
+---
+
+### Option 2: Clone from Source
 
 ```bash
 git clone https://github.com/SolidifiedPlayDoh/mcp-dialog-server.git
@@ -44,7 +57,18 @@ npm install && npm run build
 
 ---
 
-### Option 2: Manual Setup
+```bash
+git clone https://github.com/SolidifiedPlayDoh/mcp-dialog-server.git
+cd mcp-dialog-server
+npm install && npm run build
+./install.sh
+```
+
+---
+
+### Option 3: Manual Configuration
+
+If you prefer to configure Cursor yourself:
 
 #### 1. Clone and build
 

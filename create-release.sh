@@ -14,6 +14,7 @@ npm run build
 echo "📦 Creating release package..."
 mkdir -p release
 cp -r dist release/
+cp -r node_modules release/ 2>/dev/null || echo "⚠️  node_modules not found, users will need to run npm install"
 cp package.json release/
 cp package-lock.json release/
 cp README.md release/
@@ -36,13 +37,17 @@ gh release create ${RELEASE_NAME} \
 - ✅ Full documentation
 - ✅ Perfect for neurodivergent developers :3
 
-**Quick Install:**
+**Super Quick Install (one command!):**
+\`\`\`bash
+curl -fsSL https://raw.githubusercontent.com/SolidifiedPlayDoh/mcp-dialog-server/main/quick-install.sh | bash
+\`\`\`
+
+**Or download and install:**
 \`\`\`bash
 # Download and extract
 tar -xzf mcp-dialog-server-${VERSION}.tar.gz
 cd release
-npm install && npm run build
-./install.sh
+./install.sh  # That's it! No build needed - it's pre-built! ✨
 \`\`\`
 
 Made with ❤️ and lots of fluff! 🐾✨" \
