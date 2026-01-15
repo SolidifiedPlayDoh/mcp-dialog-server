@@ -17,6 +17,18 @@ This tool helps AI assistants communicate with you through **adorable native mac
 
 ---
 
+## 📥 Download
+
+**Latest Release:** [v1.0.0](https://github.com/SolidifiedPlayDoh/mcp-dialog-server/releases/latest)
+
+Download pre-built packages:
+- [📦 .tar.gz](https://github.com/SolidifiedPlayDoh/mcp-dialog-server/releases/download/v1.0.0/mcp-dialog-server-1.0.0.tar.gz)
+- [📦 .zip](https://github.com/SolidifiedPlayDoh/mcp-dialog-server/releases/download/v1.0.0/mcp-dialog-server-1.0.0.zip)
+
+Or clone from source below! :3
+
+---
+
 ## 🚀 Quick Install
 
 ### Option 1: Automatic Setup (Recommended) 🎉

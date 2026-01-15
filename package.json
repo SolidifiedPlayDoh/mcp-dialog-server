@@ -13,7 +13,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Solidifiedplaydoh/mcp-dialog-server.git"
+    "url": "https://github.com/SolidifiedPlayDoh/mcp-dialog-server.git"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.4"
