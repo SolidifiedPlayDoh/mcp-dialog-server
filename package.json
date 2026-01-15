@@ -1,0 +1,25 @@
+{
+  "name": "mcp-dialog-server",
+  "version": "1.0.0",
+  "description": "Native macOS dialog popups for AI assistants - Perfect for neurodivergent coders who prefer visual interactions",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": ["mcp", "macos", "dialog", "accessibility", "neurodivergent", "cursor", "ai"],
+  "author": "Solidifiedplaydoh",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Solidifiedplaydoh/mcp-dialog-server.git"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
